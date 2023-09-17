@@ -19,7 +19,7 @@ This thesis introduces an outlier detection method based on an ensemble of LSTM-
 - This step involves extracting and refining sensor-collected data. It focuses on extracting key components for model training, correcting missing values, and addressing outliers generated during data collection.  
 - In the data preprocessing stage, normality verification, handling missing values through linear interpolation, and correlation analysis of variables are conducted.
 
-#### **2.Modeling (LSTM-AE)**: 
+#### **2.Modeling (LSTM-AE)**:
 - In this phase, the LSTM-AE model is trained to capture latent features from the data. LSTM-AE is an autoencoder structure that utilizes LSTM layers to learn time-series characteristics in the data. The model is trained to reconstruct the input data and calculate reconstruction errors.
 - The modeling stage explains the training of the LSTM-AE model and the conversion of data into a 3D format. It evaluates model performance based on reconstruction error and cluster cohesion, demonstrating the effectiveness of feature learning.
 
