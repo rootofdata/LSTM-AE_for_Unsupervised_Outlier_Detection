@@ -13,7 +13,7 @@ The proposed framework aims to provide cost-effective and real-time anomaly dete
 ![figure 1_Framework of the proposed method  Flowchart for outlier detection with a total of 4 paragraphs](https://github.com/rootofdata/LSTM-AE_for_Unsupervised_Outlier_Detection/assets/86711374/2887e153-7702-4e69-8757-a16e77c025e1)
 
 ## Process
-This thesis introduces an outlier detection method based on an ensemble of LSTM-AE (Long Short-Term Memory Autoencoder) and a sub-algorithm for robust outlier detection in real-world scenarios. The proposed anomaly detection framework comprises four major steps: data cleansing, modeling, decision rule definition, and situational AB test.
+This introduces an outlier detection method based on an ensemble of LSTM-AE (Long Short-Term Memory Autoencoder) and a sub-algorithm for robust outlier detection in real-world scenarios. The proposed anomaly detection framework comprises four major steps: data cleansing, modeling, decision rule definition, and situational AB test.
 
 #### **1.Data Cleansing (Data Preprocessing):**:
 - This step involves extracting and refining sensor-collected data. It focuses on extracting key components for model training, correcting missing values, and addressing outliers generated during data collection.  
