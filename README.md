@@ -5,7 +5,7 @@ Remark : [http://doi.or.kr/10.1186/s40537-023-00746-z](http://doi.or.kr/10.1186/
 
 ## Introduction
 This thesis emphasizes the growing importance of detecting indoor air pollution (IAP) due to increased environmental awareness. IAP is considered a higher risk than outdoor air pollution because of prolonged indoor exposure. Continuous exposure to pollutants can lead to serious health risks. Researchers are working on strategies to control indoor air quality, with a focus on major factors like total volatile organic compounds (TVOC) and CO2, as well as outlier detection.
-
+  
 Outlier detection is crucial for identifying abnormal values or patterns in large datasets. The thesis proposes using an artificial intelligence-based outlier detection model to address the challenges of varying environments. It suggests using a long short-term memory autoencoder (LSTM-AE) for multivariate time-series data outlier detection, with the aim of robustly applying it across different indoor environments. and also highlights the need for considering noise in sensor data and using unsupervised detection methods.
 
 The proposed framework aims to provide cost-effective and real-time anomaly detection using deep neural networks (DNNs) with data collected directly from various indoor environments, where computing resources may be limited.
